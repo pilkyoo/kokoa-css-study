@@ -1,0 +1,39 @@
+#login_form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+#login_form input {
+    margin: 5px 0;
+    padding: 15px 0;
+    font-size: 15px;
+    border: none;    
+}
+
+#login_form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    transition: border-color 0.3s ease-in-out;
+}
+
+#login_form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#login_form input:focus:not([type="submit"]) {
+    border-bottom: 2px solid var(--yellow);
+}
+
+#login_form input[type="submit"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#login_form a {
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+}

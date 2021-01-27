@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "./reset.css";
+@import "./variable.css";
+
+@import "./component/status-bar.css";
+@import "./component/nav-bar.css";
+@import "./component/screen-header.css";
+@import "./component/user-component.css";
+
+@import "./screens/login.css";
+@import "./screens/friend.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color:#2e363e;
+}
+
+.welcome-header {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.welcome-header .welcome-header__title {
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.welcome-header .welcome-header__text1 {
+    opacity: 70%;
+}
+
+.welcome-header .welcome-header__text2 {
+    opacity: 70%;
+}
+
